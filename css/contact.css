@@ -1,0 +1,227 @@
+/*Here comes the styling of contact page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #757575;
+}
+
+.contact-header {
+  background-color: #c7ddea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-family: "Frank Ruhl Libre", serif;
+  padding: 2em 0.5em;
+  font-size: 2em;
+  margin: 1em 0;
+  font-weight: bolder;
+  color: #050607;
+  line-height: 1em;
+}
+
+.contact-header img {
+  max-width: 50%;
+  object-fit: cover;
+  margin: 1em 2em 0 1em;
+}
+
+.page-nav,
+.nav-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.nav-list {
+  justify-content: space-evenly;
+}
+
+.list-item {
+  font-weight: 700;
+  color: #757575;
+  padding: 2em 4em;
+}
+
+.list-item:hover {
+  color: black;
+  background-color: #f6f6f6;
+}
+.list-item:last-child {
+  background-color: #f6f6f6;
+  color: black;
+}
+
+.contact-section {
+  background-color: #a9a19e;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-bottom: 10em;
+}
+
+.contact-section .section-title {
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: #fff;
+}
+
+.contact-mail {
+  color: #f6f6f6;
+  font-weight: 700;
+  padding-left: 0.5em;
+}
+
+.contact-input {
+  display: block;
+  width: 100%;
+  height: 3em;
+  border-radius: 2px;
+  margin: 0.8em auto;
+  padding-left: 0.5em; 
+  border: none;
+}
+
+.contact-message {
+  color: #f6f6f6;
+  font-weight: 700;
+  padding-left: 0.5em;
+}
+
+#textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.5em;
+  padding: 1em 0.5em;
+  height: 12em;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 2px;
+}
+
+.contact-btn {
+  padding: 1em 1em;
+  border: none;
+  box-shadow: 0 2px 1px rgb(176, 176, 176);
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+  align-self: flex-end;
+  float: right;
+  width: 40%;
+  margin-top: 2em;
+}
+
+.contact-address {
+  width: 80%;
+  height: 15rem;
+  padding: 2em 1em;
+  background-color: #fab131;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  position: absolute;
+  top: -8em;
+  left: 10%;
+}
+
+.address-header {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 3em;
+  font-weight: 600;
+  align-self: center;
+}
+
+.address-text {
+  font-weight: 700;
+  padding-left: 1em;
+}
+
+.gmap_canvas {
+  filter: brightness(30%);
+}
+
+.gmap_canvas:hover {
+  filter: brightness(100%);
+  transition: 3000ms;
+}
+
+#gmap_canvas {
+  width: 100%;
+}
+
+.container-address {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    width: 90%;
+    background-color: #282828;
+    margin: 0 auto;
+  }
+
+  .contact-section {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-basis: 100%;
+    padding: 5em 6em;
+  }
+
+  .contact-btn {
+    align-self: end;
+    width: 40%;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 60%;
+  }
+
+  .contact-address {
+    position: relative;
+    width: 40%;
+    top: -28em;
+  }
+  .list-item:hover,
+  .list-item a:hover {
+    background-color: white;
+    color: #000;
+  }
+  .list-item:last-child {
+    background-color: #fff;
+    color: black;
+  }
+
+  /* footer gray box */
+
+  .gray-box {
+    position: relative; 
+    top: -15.5em;
+    height: 15em;
+    background-color: #757575;
+  }
+}
