@@ -8,7 +8,7 @@ html,
 body {
   width: 100%;
   height: 100vh;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   background-color: #e6e6e6;
   scroll-behavior: smooth;
   letter-spacing: -0.02em;
@@ -20,10 +20,9 @@ body {
 }
 
 .header-title {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 3em;
-  
-  
+
   margin: 1em 0;
   font-weight: 900;
 }
@@ -49,18 +48,17 @@ body {
 
 .header-img,
 .card-img {
-
   width: 100%;
-  vertical-align: middle; /*made the border go away*/ 
+  vertical-align: middle; /*made the border go away*/
 }
 
 .header-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center ;
-  width: 100%; 
-  height: 20em; 
+  justify-content: center;
+  width: 100%;
+  height: 20em;
 }
 .header-div:nth-child(1) {
   background-color: #f17949;
@@ -70,14 +68,14 @@ body {
   background-color: #fab131;
 }
 .div-text {
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 700;
   margin-bottom: 1em;
-  color: rgb(59,56,55);
+  color: rgb(59, 56, 55);
 }
 
 .header-div a {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Frank Ruhl Libre', serif;
   text-decoration: none;
   color: #fff;
   font-size: 2em;
@@ -97,7 +95,7 @@ body {
 }
 
 .section-title {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 3em;
   color: #fff;
   line-height: 1.2em;
@@ -123,7 +121,6 @@ body {
   margin: 4em auto;
   border-radius: 8px;
   overflow: visible;
-
 }
 .color-card-blue {
   background-color: #c7ddea;
@@ -131,35 +128,35 @@ body {
   margin: 0 auto;
   border-radius: 6px;
   position: relative; /*here*/
-  top: -2em; 
+  top: -2em;
 }
 .color-card-yellow {
   background-color: #fab131;
   width: 80%;
   margin: 0 auto;
   border-radius: 6px;
-  position: relative; 
-  top: -2em; 
+  position: relative;
+  top: -2em;
 }
 .color-card-orange {
   background-color: #f17949;
   width: 80%;
   margin: 0 auto;
   border-radius: 6px;
-  position: relative; 
-  top: -2em; 
+  position: relative;
+  top: -2em;
 }
 .card-img {
   max-width: 55%;
   height: 12em;
   object-fit: cover;
   object-position: 0 1.5em;
-  margin: 0 2.8em; 
+  margin: 0 2.8em;
 }
 .color-card-orange .card-img {
-    max-width: 60%;
-    object-position: 0 3em;
-    margin: 0 2.5em; 
+  max-width: 60%;
+  object-position: 0 3em;
+  margin: 0 2.5em;
 }
 
 .card-body {
@@ -167,14 +164,14 @@ body {
   margin-top: -3.5em;
 }
 .card-title {
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 1.2rem;
   color: #000;
   padding: 1em 0;
   text-align: center;
 }
 .card-text {
-  color:rgb(142,142,142);
+  color: rgb(142, 142, 142);
   line-height: 1.5em;
   font-size: 0.8rem;
   text-align: center;
@@ -192,7 +189,7 @@ body {
 .list-title {
   color: #000;
   background-color: #c7ddea;
-  font-family: "Frank Ruhl Libre", serif;
+  font-family: 'Frank Ruhl Libre', serif;
   font-size: 3rem;
   padding: 1em 0em;
   text-align: center;
@@ -212,8 +209,8 @@ body {
 }
 
 .list-item-ordered:nth-child(2)::before {
-  content: "01";
-  font-family: "Frank Ruhl Libre", serif;
+  content: '01';
+  font-family: 'Frank Ruhl Libre', serif;
   color: #a9a19e;
   font-size: 2.5em;
   position: absolute;
@@ -222,8 +219,8 @@ body {
 }
 
 .list-item-ordered:nth-child(3)::before {
-  content: "02";
-  font-family: "Frank Ruhl Libre", serif;
+  content: '02';
+  font-family: 'Frank Ruhl Libre', serif;
   color: #a9a19e;
   font-size: 2.5em;
   position: absolute;
@@ -231,8 +228,8 @@ body {
   left: 0.25em;
 }
 .list-item-ordered:nth-child(4)::before {
-  content: "03";
-  font-family: "Frank Ruhl Libre", serif;
+  content: '03';
+  font-family: 'Frank Ruhl Libre', serif;
   color: #a9a19e;
   font-size: 2.5em;
   position: absolute;
@@ -240,8 +237,8 @@ body {
   left: 0.25em;
 }
 .list-item-ordered:nth-child(5)::before {
-  content: "04";
-  font-family: "Frank Ruhl Libre", serif;
+  content: '04';
+  font-family: 'Frank Ruhl Libre', serif;
   color: #a9a19e;
   font-size: 2.5em;
   position: absolute;
@@ -249,8 +246,8 @@ body {
   left: 0.25em;
 }
 .list-item-ordered:nth-child(6)::before {
-  content: "05";
-  font-family: "Frank Ruhl Libre", serif;
+  content: '05';
+  font-family: 'Frank Ruhl Libre', serif;
   color: #a9a19e;
   font-size: 2.5em;
   position: absolute;
@@ -279,27 +276,27 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    width: 80%; 
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
   }
   .page-header {
     display: flex;
   }
-  
+
   /*Header*/
   .header-img {
-    width: 55%; 
-    max-height: 65%; 
-    position: absolute; 
-    bottom: 0; 
+    width: 55%;
+    max-height: 65%;
+    position: absolute;
+    bottom: 0;
     right: 5%;
   }
   .header-div-column {
-    flex: 2 1 50%; 
+    flex: 2 1 50%;
     height: auto;
     position: relative;
   }
-  
+
   /*navbar*/
   .page-nav {
     width: 100%;
@@ -310,7 +307,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
-    padding: 0 8em; 
+    padding: 0 8em;
   }
   .nav-list .list-item {
     width: 100%;
@@ -327,17 +324,16 @@ body {
     flex: 1 0 33%;
   }
 
-  .list-item a{
+  .list-item a {
     text-decoration: none;
-    color: rgb(130,130,130);
+    color: rgb(130, 130, 130);
     font-weight: 700;
   }
 
-  .active a{
-    color: black; 
+  .active a {
+    color: black;
   }
-  
-  
+
   .list-item a:hover {
     color: #000;
   }
@@ -346,15 +342,15 @@ body {
   .page-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5em; 
+    gap: 0.5em;
   }
   .section-container {
     display: flex;
-    gap: 6em; 
-    margin: 4em; 
+    gap: 6em;
+    margin: 4em;
   }
   .section-div {
-    flex: 1 1 50%; 
+    flex: 1 1 50%;
   }
   .section-btn {
     display: block;
@@ -367,34 +363,45 @@ body {
     font-weight: 700;
     background-color: rgb(255, 255, 255);
   }
+
+  button:hover {
+    box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
+    background-color: rgb(128, 128, 131);
+    color: white;
+  }
+
+  button:active {
+    box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
+    transform: translateY(4px);
+  }
   /* Responsive option for images but will create problems with them such as weird cuts and margin problems.
   .product-card-wrapper {
     max-width: 100%;
     margin: 0 auto; 
     display: flex;
     gap: 2em; 
-  }*/ 
+  }*/
   .product-card {
     width: 15em;
     position: relative;
-    margin-top: -15em; 
-    bottom: -15em; 
+    margin-top: -15em;
+    bottom: -15em;
   }
   .page-section:last-child {
-    padding: 10em; 
-    padding-top: 15em; 
+    padding: 10em;
+    padding-top: 15em;
   }
   .section-title:first-child {
     padding-bottom: 0;
   }
   .section-title:last-of-type {
-    margin: auto; 
+    margin: auto;
   }
-  
+
   /*bottom-nav*/
   .bottom-nav {
     display: block;
-    height: 4em; 
+    height: 4em;
     background-color: #a9a19e;
     text-align: center;
   }
@@ -418,11 +425,11 @@ body {
 /* Images in the middle section */
 @media screen and (max-width: 1050px) and (min-width: 769px) {
   .page-section {
-    display: flex; 
+    display: flex;
   }
   .product-card {
-    position: static; 
-    margin: 2em auto;  
+    position: static;
+    margin: 2em auto;
   }
 }
 /* For nav on mobiles */
@@ -430,37 +437,36 @@ body {
   .nav-list {
     width: 100%;
     height: 4em;
-    position: fixed; 
-    bottom: 0; 
+    position: fixed;
+    bottom: 0;
     background-color: rgb(232, 232, 232);
     z-index: 99;
     box-shadow: 2px 0px 2px #bebdbd;
     animation: slide-in 1200ms ease-in;
   }
-  
+
   .page-nav .nav-list {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    margin: 0; 
+    margin: 0;
   }
   .nav-list .list-item {
     padding: 2em 1.5em;
     text-transform: uppercase;
     font-size: 0.8rem;
   }
-  .list-item a{
+  .list-item a {
     text-decoration: none;
     color: #000;
     opacity: 0.4;
   }
-  .active a{
+  .active a {
     color: #000;
     opacity: 1;
   }
 }
-
 
 /*Keyframes*/
 
