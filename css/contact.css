@@ -96,6 +96,9 @@ a {
   margin: 0.8em auto;
   padding-left: 0.5em;
   border: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
 }
 
 .contact-message {
@@ -114,6 +117,7 @@ a {
   font-weight: 700;
   font-size: 1.2em;
   border: none;
+  resize: none;
   border-radius: 2px;
 }
 
@@ -131,6 +135,15 @@ a {
   float: right;
   width: 40%;
   margin-top: 2em;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.5s ease 0s;
+  box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
+  background-color: #424243;
+  color: white;
+  cursor: pointer;
 }
 
 .contact-address {

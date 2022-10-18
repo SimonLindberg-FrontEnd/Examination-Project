@@ -336,6 +336,7 @@ body {
   }
 
   .list-item a:hover {
+    transition: all 0.3s ease 0s;
     color: #000;
   }
 
@@ -366,13 +367,14 @@ body {
   }
 
   button:hover {
+    transition: all 0.5s ease 0s;
     box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
     background-color: #424243;
     color: white;
+    cursor: pointer;
   }
 
   button:active {
-    box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
     transform: translateY(4px);
   }
   /* Responsive option for images but will create problems with them such as weird cuts and margin problems.
