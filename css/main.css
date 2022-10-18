@@ -366,7 +366,7 @@ body {
 
   button:hover {
     box-shadow: 10px 12px 10px rgba(51, 50, 50, 0.1);
-    background-color: rgb(128, 128, 131);
+    background-color: #424243;
     color: white;
   }
 
