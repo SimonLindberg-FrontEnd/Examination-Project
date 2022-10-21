@@ -19,8 +19,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Frank+Ruhl+Libre:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700;900&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap"
       rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -35,6 +37,7 @@
         itemscope
         itemtype="https://schema.org/InsuranceAgency">
         <!--Trying to use schemas-->
+        <div class="header-left-container">
         <h1 class="header-title" itemprop="slogan">We've got you Covered.</h1>
         <p class="header-text">
           Together we keep each other safe at home or at work. By paying a tiny
@@ -45,6 +48,7 @@
         <button class="header-btn" onclick="location.href='contact.html'">
           Join now
         </button>
+      </div>
         <img
           src="img/family.png"
           alt="a happy insured family"
@@ -59,14 +63,13 @@
           <p class="div-text" itemprop="itemOffered">
             What do we have to offer?
           </p>
-          <p class="div-text"><a href="#">Learn more</a></p>
+          <h2><a href="#">Learn more</a></h2>
         </div>
         <div class="header-div">
           <p class="div-text">What are you waiting for?</p>
           <p class="div-text">
-            <a href="contact.html" aria-label="Link to our contact page"
-              >Join today</a
-            >
+            <h2><a href="contact.html" aria-label="Link to our contact page"
+              >Join today</a></h2>
           </p>
         </div>
       </div>
@@ -170,6 +173,7 @@
         id="about"
         role="contentinfo"
         aria-label="information about insurance company">
+        <div class="about-container">
         <h2 class="section-title">About us</h2>
         <p class="div-text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
@@ -186,10 +190,11 @@
           exercitationem rerum laboriosam ad, eaque, quisquam dignissimos saepe
           libero laudantium error porro?
         </p>
+      </div>
       </section>
     </main>
     <!--How it works: Steps to apply-->
-    <div class="list-div">
+    <!-- <div class="list-div">
       <div>
         <h3 class="list-title">How <br />It works?</h3>
       </div>
@@ -203,14 +208,53 @@
       <div class="list-item-ordered">Wait 90 sec to get approved.</div>
       <div class="list-item-ordered">Done!</div>
     </div>
-    <!--Bottom navigation bar-->
-    <a href="#start" aria-label="Link to start of home page">
-      <nav class="bottom-nav">
-        <!--icon-->
+  -->
+  <div class="list-container">
+    <ol class="ol-list">
+  <li class="list-item-ordered list-title">
+    <div class="list-content">
+      <h2>How </h2>
+      <h2>It works?</h2>
+    </div>
+  </li>
+            <li class="list-item-ordered list-item-ordered-1">
+              <div class="list-content">
+                <p>Answer a few questions</p>
+                <p>about yourself</p>
+              </div>
+            </li>
+            <li class="list-item-ordered list-item-ordered-2">
+              <div class="list-content">
+                <p>Choose a plan.</p>
+                <p>Get a quote.</p>
+              </div>
+            </li>
+            <li class="list-item-ordered list-item-ordered-3">
+              <div class="list-content">
+                <p>Answer some questions about</p>
+                <p>your medical history.</p>
+              </div>
+            </li>
+            <li class="list-item-ordered list-item-ordered-4">
+              <div class="list-content">
+                <p>Wait 90 sec to get approved.</p>
+              </div>
+            </li>
+            <li class="list-item-ordered list-item-ordered-5">
+              <div class="list-content">
+                <p>Done!</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <!-- Bottom navigation bar -->
+        <nav class="bottom-nav">
+        <a href="#start" aria-label="Link to start of home page">
+          <!--icon-->
         <i class="material-icons">expand_less</i>
         <p>Take me up again!</p>
-      </nav></a
-    >
+      </a>
+      </nav>
     <div class="gray-box"></div>
     <div class="thin-gray-box"></div>
   </body>
