@@ -273,12 +273,12 @@ button {
 }
 
 .list-title h2 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .list-content p {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -474,7 +474,7 @@ ol li:not(:first-child):before {
     display: flex;
     flex: 1 0 33%;
     flex-wrap: wrap;
-    min-height: 30vh;
+    min-height: 40vh;
   }
 
   /*bottom-nav*/
