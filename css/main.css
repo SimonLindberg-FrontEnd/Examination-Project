@@ -12,6 +12,26 @@ body {
   background-color: #e6e6e6;
   scroll-behavior: smooth;
   letter-spacing: -0.02em;
+  word-wrap: break-word;
+}
+
+p {
+  font-family: 'Fira Sans';
+}
+
+h1 {
+  font-family: 'Frank Ruhl Libre';
+}
+
+h2 {
+  font-family: 'Frank Ruhl Libre';
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+button {
+  font-family: 'Fira Sans';
+  color: #353535;
 }
 /* || Header - all parts of the header*/
 .header-div-column:first-child {
@@ -22,9 +42,7 @@ body {
 .header-title {
   font-family: 'Frank Ruhl Libre', serif;
   font-size: 3em;
-
-  margin: 1em 0;
-  font-weight: 900;
+  font-weight: 700;
 }
 .header-text {
   line-height: 1.6em;
@@ -228,23 +246,15 @@ body {
   top: 0.3em;
   left: 0.25em;
 }
-.list-item-ordered:nth-child(4)::before {
-  content: '03';
-  font-family: 'Frank Ruhl Libre', serif;
-  color: #a9a19e;
-  font-size: 2.5em;
-  position: absolute;
-  top: 0.3em;
-  left: 0.25em;
+
+.list-title h2 {
+  font-size: 5rem;
 }
-.list-item-ordered:nth-child(5)::before {
-  content: '04';
-  font-family: 'Frank Ruhl Libre', serif;
-  color: #a9a19e;
-  font-size: 2.5em;
-  position: absolute;
-  top: 0.3em;
-  left: 0.25em;
+
+.list-content p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
 }
 .list-item-ordered:nth-child(6)::before {
   content: '05';
