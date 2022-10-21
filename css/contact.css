@@ -10,25 +10,45 @@ body {
   width: 100%;
   height: 100vh;
   font-family: 'Fira Sans', sans-serif;
+  background-color: #e6e6e6;
+  scroll-behavior: smooth;
+  letter-spacing: -0.02em;
 }
-a {
+
+p {
+  font-family: 'Fira Sans';
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.list-item a {
   text-decoration: none;
-  color: #757575;
+  color: rgb(130, 130, 130);
+  font-weight: 700;
+  font-family: 'Fira Sans';
+}
+
+.active a {
+  color: #000;
+}
+
+.list-item a:hover {
+  transition: all 0.3s ease 0s;
+  color: #000;
 }
 
 .contact-header {
   background-color: #c7ddea;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .header-text {
   font-family: 'Frank Ruhl Libre', serif;
   padding: 2em 0.5em;
-  font-size: 2em;
-  margin: 1em 0;
-  font-weight: bolder;
+  font-size: 3em;
+  margin: 1em 1em 1em 1em;
+  font-weight: 700;
+
   color: #050607;
   line-height: 1em;
 }
@@ -41,10 +61,10 @@ a {
 
 .page-nav,
 .nav-list {
-  width: 100%;
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
-  background-color: #ffffff;
+  background-color: rgb(232, 232, 232);
 }
 
 .nav-list {
@@ -52,18 +72,9 @@ a {
 }
 
 .list-item {
-  font-weight: 700;
-  color: #757575;
+  font-family: 'Fira Sans';
+  font-size: 0.8rem;
   padding: 2em 4em;
-}
-
-.list-item:hover {
-  color: black;
-  background-color: #f6f6f6;
-}
-.list-item:last-child {
-  background-color: #f6f6f6;
-  color: black;
 }
 
 .contact-section {
@@ -97,7 +108,7 @@ a {
   padding-left: 0.5em;
   border: none;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 700;
+
   font-size: 1.2em;
 }
 
@@ -107,18 +118,26 @@ a {
   padding-left: 0.5em;
 }
 
-#textarea {
+textarea {
   display: block;
+  color: #000;
   width: 100%;
   margin-top: 0.5em;
   padding: 1em 0.5em;
   height: 12em;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 700;
+
   font-size: 1.2em;
   border: none;
   resize: none;
   border-radius: 2px;
+}
+
+textarea,
+.contact-input {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .contact-btn {
@@ -193,7 +212,7 @@ button:hover {
   html,
   body {
     width: 90%;
-    background-color: #282828;
+
     margin: 0 auto;
   }
 
@@ -220,15 +239,6 @@ button:hover {
     position: relative;
     width: 40%;
     top: -28em;
-  }
-  .list-item:hover,
-  .list-item a:hover {
-    background-color: white;
-    color: #000;
-  }
-  .list-item:last-child {
-    background-color: #fff;
-    color: black;
   }
 
   /* footer gray box */
